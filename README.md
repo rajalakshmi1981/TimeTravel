@@ -1,6 +1,6 @@
-# TimeTravel Spring Boot App
+# Time Travel Spring Boot App
 
-This is a Time Travel REST application
+This is a Time Travel REST application which stores the Travel history of the Travaller and avoids Place and Date Paradox. Also records the Travel details of the Traveller
 
 What you'll need
 
@@ -23,7 +23,7 @@ Run
     
  The URL is /travel and the Method is POST. 
  
- Example URl: http://<hostanme>:<port>/travel
+ Example URl: http://localhost:8080/travel
  
  Example JSON format for Request Body :
  
