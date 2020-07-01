@@ -4,26 +4,30 @@ This is a Time Travel REST application which stores the Travel history of the Tr
 
 What you'll need
 
-    JDK 1.7 or later
+    JDK 1.8 or later
     Maven 3 or later
     spring-boot 1.3.5.RELEASE
 
-Build 
+# Build 
 
 mvn clean install
 
-Run
+# Tests
+
+mvn clean test
+
+# Running App
 		
-    mvn spring-boot:run
+mvn spring-boot:run
     
-    or alternatively with jar you can run from target folder 
+or alternatively with jar you can run from target folder 
     
-    java -jar TimeTravel-1.0.0.jar
+java -jar TimeTravel-1.0.0.jar --server.port=9181
     
     
  The URL is /travel and the Method is POST. 
  
- Example URl: http://localhost:8080/travel
+ Example URl: http://localhost:9181/travel
  
  Example JSON format for Request Body :
  
